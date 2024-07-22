@@ -123,14 +123,14 @@ getgenv().Yeki = {
             ["P10_20"] = (0.10087127181718181)
         },
         ["Fov"] = {
-            ["Visible"] = (true), -- // If The Circle Is Showing Or Not
+            ["Visible"] = (false), -- // If The Circle Is Showing Or Not
             ["Method"] = ("Screen"), -- // What Type Of Position The Fov Is Gonna Be (Mouse, Screen)
             ["Filled"] = (true), -- // If The Circle Is Filled
             ["Transparency"] = (0.1), -- // The Circle Transparency
             ["Color"] = (Color3.fromRGB(0, 153, 0)), -- // Circle Color
             ["Offset"] = (Vector2.new(0, 0)), -- // Circle Position + The Offset
             ["StickyFov"] = (false), -- // Puts The Circle On Target Position
-            ["Radius"] = (27.6) -- // How Big The Circle Is
+            ["Radius"] = (29.8) -- // How Big The Circle Is
         },
         ["GunSettings"] = {
             ["Enabled"] = (false), -- // Enable / Disable GunSettings
