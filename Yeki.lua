@@ -273,7 +273,7 @@ getgenv().Yeki = {
         ["PlayerDeathCheck"] = (true), -- // Disables When You Die
         ["ToolOut"] = (false), -- // AimAssist Only Enables When An Tool Is Out
         
-        ["WallCheck"] = (true), -- // Checks If There Is Nothing Infront Of The Target
+        ["WallCheck"] = (false), -- // Checks If There Is Nothing Infront Of The Target
         ["WallCheck_V2"] = (false), -- // Checks If The Velocity Is Predicting Into An Wall
         ["FriendCheck"] = (false), -- // Checks If Target Is Your Friend
         ["TeamCheck"] = (false), -- // Checks If Player Is In the Same Team
@@ -383,7 +383,7 @@ getgenv().Yeki = {
         }
     },
     ["Esp"] = {
-        ["Enabled"] = (true), -- // Enable / Disable Esp
+        ["Enabled"] = (false), -- // Enable / Disable Esp
         ["UseEspKeyBind"] = (true), -- // Enable / Disable EspKey
         ["EspKey"] = ("T"), -- // Key To Enable / Disable Esp
         ["HoldMode"] = (false), -- // Enables While Only Holding The Key
