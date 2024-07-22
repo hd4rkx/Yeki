@@ -77,7 +77,7 @@ getgenv().Yeki = {
         ["TriggerBot_HoldMode"] = (false), -- // Enables While Only Holding The Key
         ["TriggerBot_Delay"] = (100), -- // Delays The Click (Milliseconds)
         ["TriggerBotMouseKey"] = ("MouseButton3"), -- // Mouse Key To Enable / Disable TriggerBot.
-        ["TriggerBot_HotKey"] = (false), -- // Will Use KeyBoard Keys Instead Of Mouse Keys
+        ["TriggerBot_HotKey"] = (true), -- // Will Use KeyBoard Keys Instead Of Mouse Keys
         ["TriggerBotKey"] = ("Q"), -- // What KeyBoard Key
         
         ["AntiGroundShots"] = (true), -- // Makes So You Dont Shoot The Ground/Floor
@@ -130,7 +130,7 @@ getgenv().Yeki = {
             ["Color"] = (Color3.fromRGB(0, 153, 0)), -- // Circle Color
             ["Offset"] = (Vector2.new(0, 0)), -- // Circle Position + The Offset
             ["StickyFov"] = (false), -- // Puts The Circle On Target Position
-            ["Radius"] = (34.8) -- // How Big The Circle Is
+            ["Radius"] = (37.6) -- // How Big The Circle Is
         },
         ["GunSettings"] = {
             ["Enabled"] = (false), -- // Enable / Disable GunSettings
@@ -230,7 +230,7 @@ getgenv().Yeki = {
         
         ["UseSmoothness"] = (true), -- // Enable / Disable Smoothness
         ["Smoothness_X"] = (0.1), -- // How Smooth The Aim Assist Is On X
-        ["Smoothness_Y"] = (0.08), -- // How Smooth The Aim Assist Is On Y 
+        ["Smoothness_Y"] = (0.1), -- // How Smooth The Aim Assist Is On Y 
 
         ["AirSmoothness"] = (false), -- // Uses AirSmoothness When The Target Is In The Air
         ["AirSmoothness_X"] = (0.01), -- // How Smooth The Aim Assist Is On X In Target Air
